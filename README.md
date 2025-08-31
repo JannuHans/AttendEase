@@ -1,5 +1,7 @@
 AttendEase - Smart Attendance Management System
+
 Overview
+
 AttendEase is a facial recognition-based attendance management system built with Python and OpenCV. It automates the attendance tracking process by capturing, training, and recognizing faces in real-time.
 
 Tech Stack
@@ -9,6 +11,8 @@ NumPy - For numerical computations
 PIL (Python Imaging Library) - For image handling
 Threading - For concurrent operations
 LBPH Face Recognizer - For face recognition algorithms
+
+
 Features
 Camera testing functionality
 Face capture and registration
@@ -16,6 +20,8 @@ Face recognition training
 Automated attendance marking
 CSV-based attendance records
 Real-time face detection
+
+
 Project Structure
 AttendEase/
 ├── Attendance/              # Stores attendance records
@@ -27,12 +33,18 @@ AttendEase/
 ├── recognize.py            # Face recognition module
 ├── train_image.py         # Model training module
 └── main.py                # Main application entry point
+
+
+
 Installation
 Clone the repository or download the ZIP file
 Install required dependencies:
 pip install opencv-python
 pip install numpy
 pip install pillow
+
+
+
 How to Use
 Run main.py to start the application
 Choose from the following options:
@@ -41,6 +53,8 @@ Capture Faces: Register new students/employees
 Train Images: Train the system with captured faces
 Recognize & Attendance: Start attendance marking
 Attendance records are automatically saved in CSV format
+
+
 Requirements
 Python 3.x
 Webcam
