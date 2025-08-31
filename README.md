@@ -47,10 +47,6 @@ AttendEase/
 
 Clone the repository or download the ZIP file:
 
-git clone https://github.com/your-username/AttendEase.git
-cd AttendEase
-
-
 Install the required dependencies:
 
 pip install opencv-python
