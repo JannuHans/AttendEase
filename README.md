@@ -1,13 +1,48 @@
-# SMART ATTENDANCE MANAGEMENT SYSTEM USING OPEN CV
-**A smart attendance marking and management system using Face Recognition with OpenCV.**
+AttendEase - Smart Attendance Management System
+Overview
+AttendEase is a facial recognition-based attendance management system built with Python and OpenCV. It automates the attendance tracking process by capturing, training, and recognizing faces in real-time.
 
-The user can:
-- Test camera function
-- Capture images
-- Train images
-- Recognize faces for attendance
-
-## HOW TO USE:
-1. Download the ZIP file, and extract its all content.
-2. Install all the required libraries. 
-3. Run the project using the command line or the IDE Run button
+Tech Stack
+Python 3.x
+OpenCV - For image processing and facial recognition
+NumPy - For numerical computations
+PIL (Python Imaging Library) - For image handling
+Threading - For concurrent operations
+LBPH Face Recognizer - For face recognition algorithms
+Features
+Camera testing functionality
+Face capture and registration
+Face recognition training
+Automated attendance marking
+CSV-based attendance records
+Real-time face detection
+Project Structure
+AttendEase/
+├── Attendance/              # Stores attendance records
+├── StudentDetails/          # Contains student information
+├── TrainingImage/          # Stores captured face images
+├── TrainingImageLabel/     # Contains trained model data
+├── capture_image.py        # Image capture module
+├── check_camera.py         # Camera testing module
+├── recognize.py            # Face recognition module
+├── train_image.py         # Model training module
+└── main.py                # Main application entry point
+Installation
+Clone the repository or download the ZIP file
+Install required dependencies:
+pip install opencv-python
+pip install numpy
+pip install pillow
+How to Use
+Run main.py to start the application
+Choose from the following options:
+Test Camera: Verify camera functionality
+Capture Faces: Register new students/employees
+Train Images: Train the system with captured faces
+Recognize & Attendance: Start attendance marking
+Attendance records are automatically saved in CSV format
+Requirements
+Python 3.x
+Webcam
+Minimum 512MB RAM
+1GB free disk space
